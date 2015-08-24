@@ -1,0 +1,6 @@
+
+maven+cxf 基本框架
+只有webservice
+可用url直接调用
+http://localhost:8080/cxfTest/webservice/mycxf/user/info
+ajax参数传递 可传递 string、对象,对象传递只能使用post方式（get会自动将json转换为par=val形式后期无法转换为对象）
